@@ -1,0 +1,305 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.atas {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(1, 92, 131, 1) 43%,
+    rgba(10, 74, 162, 1) 79%,
+    rgba(5, 44, 55, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 1%;
+}
+
+li {
+  list-style: none;
+}
+
+.atas nav {
+  display: flex;
+  background-color: #f2ffe9;
+  width: 90%;
+  height: 50px;
+  line-height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0 0 20px 20px;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+nav li {
+  display: inline;
+  margin-left: 30px;
+  padding-left: 0px;
+  color: black;
+}
+
+nav a:hover {
+  border-bottom: 2px solid#000000;
+}
+nav a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+main {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  margin: 4% 0 0 6%;
+  letter-spacing: 3px;
+}
+
+article {
+  margin: 100px 63px 400px;
+}
+
+main article h1 {
+  font-size: 56px;
+  margin-bottom: 20px;
+}
+
+.title h1 {
+  font-size: 50px;
+  color: white;
+}
+
+main article button {
+  background-color: white;
+  padding: 12px 28px;
+  border-radius: 12px;
+  transition: button 0.4s ease-in;
+}
+
+.image-bottom {
+  margin-top: 110px;
+}
+
+.image-bottom img {
+  border-top-left-radius: 200px;
+  border-top-right-radius: 200px;
+  width: 400px;
+  height: 400px;
+  box-shadow: 5px 5px 12px #111;
+}
+
+article aside {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -680px;
+}
+
+article aside img {
+  width: 400px;
+  height: 400px;
+  border-top-left-radius: 200px;
+  border-bottom-right-radius: 200px;
+  box-shadow: 2px 2px 5px #111;
+}
+
+article button {
+  color: purple;
+  height: 40px;
+  width: 190px;
+  border-radius: 50px;
+}
+
+button:hover {
+  background-color: rgb(34, 43, 54);
+  color: white;
+}
+
+.best-service {
+  background-color: rgb(255, 255, 255);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.best-service {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.best-service h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.best-service p {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 30px;
+}
+
+.pembungkus{
+  display: flex;
+  margin-top: 20px;
+  color: rgb(0, 0, 0);
+  flex-direction:row;
+  gap: 24px;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  
+}
+
+.content img {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+}
+
+.judul p {
+ text-align: center;
+ font-size: 40px;
+ padding-top: 50px;
+}
+
+.judul {
+  background-color: bisque;
+  padding-bottom: 40px;
+}
+
+.product {
+  display: flex;
+  margin-top: 50px;
+  color: white;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  
+}
+
+
+.product p{
+  color: #000000;
+  text-align: center;
+}
+
+.product img {
+  width: 250px;
+  height: 250px;
+  padding: 10px;
+}
+
+.kotak {
+  background-color: white;
+  border-radius: 20px;
+}
+
+.cucu {
+  background-color: green;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.collection {
+  display: flex;
+  margin-top: 80px;
+  padding-bottom: 100px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 200px;
+  text-align: center;
+  justify-content: center;
+}
+
+.view p{
+  text-align: center;
+}
+
+.view button {
+  color: purple;
+  height: 40px;
+  width: 190px;
+  border-radius: 50px;
+}
+
+.penutupan {
+  background-color: black;
+  color: white;
+
+}
+
+.rifal {
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  
+}
+
+.ipay h1 {
+  color: white;
+  font-size: 50px;
+  margin-left: 60px;
+}
+
+.ipay p {
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+.ipay img {
+  height: 30px;
+  width: auto;
+  margin: 10px 15px 0 0;
+
+}
+
+.cape {
+  display: flex;
+}
+
+.home {
+  margin-left: 150px;
+  margin-top: 30px;
+}
+
+.home h1 {
+  font-size: 30px;
+}
+
+.home p {
+  margin-top: 20px;
+}
+
+.help {
+  margin: 35px 0 0 150px;
+}
+
+.help h1 {
+  font-size: 30px;
+}
+
+.help p {
+  margin-top: 20px;
+}
+
+.social {
+  margin: 35px 0 0 150px;
+}
+
+.social h1 {
+  font-size: 30px;
+}
+
+.social p {
+  margin-top: 20px;
+}
+
+footer p{
+  text-align: center;
+}

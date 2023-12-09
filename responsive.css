@@ -1,0 +1,68 @@
+@media screen and (max-width: 885px)  {
+  /* ---------------- */
+  /* Main Article */
+  /* ---------------- */
+
+  main article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  main article .title {
+    text-align: center;
+  }
+
+  .image-bottom {
+    display: flex;
+    margin-top: 33px;
+    justify-content: center;
+  }
+
+  .image-bottom img {
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    width: 400px;
+    height: 400px;
+  }
+
+  article aside {
+    display: flex;
+    justify-content: center;
+    margin: 80px 0 -144px 0;
+  }
+
+  article aside img {
+    width: 400px;
+    height: 400px;
+    border-top-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+  }
+
+  .pembungkus {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .collection {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: block;
+  }
+
+  .view {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+
+  .rifal {
+    display: block;
+    justify-content: flex-start;
+  }
+
+ .home {
+  margin-left: 60px;
+ }
+}
